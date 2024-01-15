@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Analysis</title>
+    <script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <input type="file" name="file" accept=".xlsx" id="file-input" required>
+        <button class="btn btn-primary" id="analyze-button">Analyze Data</button>
+        <table class="table table-bordered" id="excel-table"></table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
